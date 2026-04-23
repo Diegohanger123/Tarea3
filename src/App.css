@@ -1,0 +1,128 @@
+.container {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #3d3bcc;
+  border-radius: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 10px;
+  border: 1px solid #e2e0d8;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.input-group label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #6b6860;
+}
+
+.input-group input {
+  padding: 10px;
+  border: 1px solid #d1cfc7;
+  border-radius: 8px;
+  background: #f7f6f2;
+  font-size: 15px;
+}
+
+.btn-generar {
+  background-color: #3d3bcc;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn-generar:hover {
+  background-color: #312fb3;
+}
+
+.resultado {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.tarjeta {
+  background: #eeeef9;
+  border: 2px solid #3d3bcc;
+  border-radius: 15px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  background-color: #3d3bcc;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 18px;
+  flex-shrink: 0;
+}
+
+.info h2 {
+  margin: 0;
+  font-size: 18px;
+  color: #1a1917;
+}
+
+.rol-badge {
+  display: inline-block;
+  background: white;
+  color: #3d3bcc;
+  border: 1px solid #c7c6f0;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 11px;
+  font-family: monospace;
+  margin: 5px 0;
+}
+
+.info p {
+  margin: 5px 0 0;
+  font-size: 13px;
+  color: #534ab7;
+}
+
+.btn-limpiar {
+  background: #ffffff;
+  border: none;
+  color: #000000;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.btn-limpiar:hover {
+  background: #ffffffee;
+}
